@@ -301,7 +301,7 @@ namespace statki
             Random random = new Random();
             Coordinate lastHit=null;
             Coordinate roll;
-            int tryCounter = 3;
+            int tryCounter = 0;
             while (true)
             {
                 if(tryCounter == 0) lastHit=null;
@@ -309,10 +309,8 @@ namespace statki
                 {
                     int row = random.Next(-1,2);
                     int col = random.Next(-1,2);
-                    row = Math.Max(row, 0);
-                    row = Math.Min(row, boardSize-1);
-                    col = Math.Max(col, 0);
-                    col = Math.Min(col, boardSize-1);
+                    row = row < 0 ? Math.Max(lastHit.row + row, 0) : Math.Min(lastHit.row + row, boardSize - 1);
+                    col = col < 0 ? Math.Max(lastHit.col + col, 0) : Math.Min(lastHit.col + col, boardSize - 1);
                     roll = new Coordinate(row, col);
                 }
                 else

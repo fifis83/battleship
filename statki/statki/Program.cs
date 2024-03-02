@@ -75,7 +75,7 @@ namespace statki
                     }
                     // play again
                 pvpPlayAgain:
-                    Console.WriteLine($"wins {0}: {1}  {2}: {3}",p1.name,p1.wins,p2.name,p2.wins);
+                    Console.WriteLine("wins {0}: {1}  {2}: {3}",p1.name,p1.wins,p2.name,p2.wins);
                     Console.WriteLine("Do you want to play again? (Y/N): ");
                     string playerChoice = Console.ReadLine();
                     switch (playerChoice.Trim().ToUpper())
@@ -121,7 +121,7 @@ namespace statki
                         }
                     }
                     // play again
-                    Console.WriteLine($"wins {0}: {1}  {2}: {3}",p1.name,p1.wins,ai.name,ai.wins);
+                    Console.WriteLine("wins {0}: {1}  {2}: {3}",p1.name,p1.wins,ai.name,ai.wins);
                     Console.WriteLine("Do you want to play again? (Y/N): ");
                 AIPlayAgain:
                     string choice = Console.ReadLine();
