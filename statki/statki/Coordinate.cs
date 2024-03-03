@@ -3,8 +3,7 @@ namespace statki
 {
     internal class Coordinate
     {
-        public int row;
-        public int col;
+        public int row,col;
     
         public Coordinate(int row, int col)
         {
