@@ -1,7 +1,0 @@
-E:\New folder\statki\statki\obj\Debug\statki.csproj.AssemblyReference.cache
-E:\New folder\statki\statki\obj\Debug\statki.csproj.CoreCompileInputs.cache
-E:\New folder\statki\statki\bin\Debug\statki.exe.config
-E:\New folder\statki\statki\bin\Debug\statki.exe
-E:\New folder\statki\statki\bin\Debug\statki.pdb
-E:\New folder\statki\statki\obj\Debug\statki.exe
-E:\New folder\statki\statki\obj\Debug\statki.pdb
